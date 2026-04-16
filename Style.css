@@ -1,6 +1,6 @@
 /*ackground-color: rgba(174, 237, 240, 0.5);*/
 div{
-    background-image: url("images/Background\ image.jpeg");
+    background-image: url("background_image.jpeg");
     background-repeat: repeat;
     background-size: cover;
     background-position: center;
