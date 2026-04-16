@@ -1,0 +1,62 @@
+/*ackground-color: rgba(174, 237, 240, 0.5);*/
+div{
+    background-image: url("images/Background\ image.jpeg");
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    
+    min-height: 100vh;
+    margin: 0;
+}
+
+.speicial{
+    text-align: center;
+    border-radius: 8px;
+}
+.head{
+    text-align: center;
+    color:rgb(8, 214, 211);
+}
+table{
+    width:80%;
+    border-collapse:collapse;
+}
+th, td{
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #73ece6;
+    box-shadow: inset;
+    border-radius: 3px;
+    color:rgb(169, 235, 234);
+}
+tr:hover{
+    background-color: rgb(1, 61, 59);
+}
+.course{
+    padding: 50px;
+    color: rgb(8, 214, 211);
+}
+nav ul li a{
+    color: rgb(243, 247, 247);
+    padding: 30px;
+    text-shadow: rgb(1, 61, 59);
+}
+nav ul li a:hover{
+    color: aqua;
+    border-radius: 5px;
+}
+.text{
+    text-align: center;
+    color: rgb(8, 214, 211);
+}
+.name{
+    color: aliceblue;
+}
+@media (max-width: 600px){
+    nav ul{
+        flex-direction: column;
+    }
+}
+.links{
+    color: rgb(39, 149, 245);
+}
